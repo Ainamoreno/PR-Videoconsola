@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6da7aeac50.js" crossorigin="anonymous"></script>
     <title>Videoconsola</title>
 </head>
 <body>
    <h1>Videoconsola Switch</h1>
 
-   <section class="consola">
+   <div class="consola">
     <div class="contenedor-botones contenedor-izq">
         <button class="btn btn-superior-drcha"></button>
         <button class="btn  joystick"></button>
@@ -22,9 +23,9 @@
        <button class="btn btn-reset"></button>
     </div>
     <div class="contenedor-pantalla">
-     <div class="pantalla">
-
-     </div>
+        <div class="cont-shadow">
+            <div class="pantalla"></div>
+        </div>
     </div>
     <div class="contenedor-botones contenedor-drcha"> 
         <button class="btn btn-superior-izq"></button> 
@@ -33,8 +34,13 @@
             <button class="btn flecha-y"></button>
         </div>
         <div class="contenedor-joystick"><button class="btn  joystick"></button></div>
-        <button class="btn btn-home"></button>
+        <button class="btn btn-home" id="led-apagado"></button>
     </div>
-   </section>
+
+    <!-- <div class="btns-arriba">
+        <div class="btn-l"></div>
+        <div class="btn-r"></div>
+    </div> -->
+</div>
 </body>
 </html>
