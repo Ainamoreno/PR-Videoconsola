@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .consola {
@@ -11,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Estilo espacios laterales  */
@@ -24,7 +22,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .contenedor-izq {
@@ -66,8 +63,7 @@ body {
     margin-top: 10px;
     margin-right: 4em;
     align-items: flex-start;
-    position: relative;
-    
+    position: relative; 
 }
 
 .btn-reset {
@@ -80,11 +76,11 @@ body {
     align-self: flex-end;
 }
 
-#led-apagado {
+.led-apagado {
     border: 2px solid grey;
 }
 
-.btn-home {
+#btn-home {
     box-shadow: #afa0a07a 0px 1px 10px 4px;
     border-radius: 2em;
     margin-bottom: 1em;
@@ -144,36 +140,6 @@ body {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
 }
-
-/* .btns-flecha {
-    background-color: azure;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 30%;
-} */
-
-/* .flecha-y {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border-top: 3px solid #b7bec8;
-    width: 1em;
-    height: 3em;
-    margin-left: 0.5em;
-    border-radius: 0.2em;
-    position: absolute;
-}
-
-.flecha-x {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    width: 3em;
-    height: 1em;
-    margin-left: 0.5em;
-    border-top: 3px solid #b7bec8;
-    border-radius: 0.2em;
-    position: absolute;
-} */
 
 /* Estilos pantalla central  */
 
@@ -236,29 +202,6 @@ body {
     box-shadow: -18px 3px 0 5px black;
     transform: rotate(150deg);
 }
-
-
-/* .btn-l {
-    margin-bottom: 10.2em;
-    height: 71px;
-    width: 51px;
-    box-shadow: -18px 3px 0 5px black;
-    border-radius: 50%;
-    transform: rotate(80deg);
-    margin-left: -35em;
-
-}
-
-.btn-r {
-    margin-top: -14.8em;
-    height: 71px;
-    width: 51px;
-    box-shadow: -15px 1px 0 5px black;
-    border-radius: 50%;
-    transform: rotate(150deg);
-    margin-left: -4em;
-
-} */
 
 .btns-arriba {
     margin-bottom: 8em;
