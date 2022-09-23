@@ -16,11 +16,15 @@
     <div class="consola">
         <!-- Contenedor parte izquierda -->
         <div class="contenedor-botones contenedor-izq">
-            <button class="btn btn-superior-drcha"></button>
-            <button class="btn  joystick"></button>
-            <div class="btns-flecha">
-                <button class="btn flecha-x"></button>
-                <button class="btn flecha-y"></button>
+            <button class="btn btn-superior-izq"></button>
+            <div class="contenedor-joystick">
+                <button class="btn  joystick"></button>
+            </div>
+            <div id="div-cuatro-btns">
+                <button class="btn-redondo" id="btn-1">△</button>
+                <button class="btn-redondo" id="btn-2">▷</button>
+                <button class="btn-redondo" id="btn-3">▽</button>
+                <button class="btn-redondo" id="btn-4">◁</button>
             </div>
 
             <button class="btn btn-reset"></button>
@@ -28,25 +32,42 @@
 
         <!-- Contenedor pantalla -->
         <div class="contenedor-pantalla">
+            <div id="contenedor-huecos">
+                <div id="hueco-izq" class="hueco"></div>
+                <div id="hueco-der" class="hueco"></div>
+            </div>
             <div class="cont-shadow">
                 <div class="pantalla"></div>
             </div>
         </div>
         <!-- Contenedor parte derecha -->
         <div class="contenedor-botones contenedor-drcha">
-            <button class="btn btn-superior-izq"></button>
-            <div class="btns-flecha">
-                <button class="btn flecha-x"></button>
-                <button class="btn flecha-y"></button>
+            <div id="btns-cruz-sup">
+                <button class="btn btn-superior-der cruz1"></button>
+                <button class="btn btn-superior-der"></button>
             </div>
-            <div class="contenedor-joystick"><button class="btn  joystick"></button></div>
+            
+            <div id="div-cuatro-btns">
+                <button class="btn-redondo" id="btn-1">X</button>
+                <button class="btn-redondo" id="btn-2">A</button>
+                <button class="btn-redondo" id="btn-3">B</button>
+                <button class="btn-redondo" id="btn-4">Y</button>
+            </div>
+            <div class="contenedor-joystick">
+                <button class="btn  joystick"></button>
+            </div>
             <button class="btn btn-home" id="led-apagado"></button>
         </div>
 
-        <div class="btns-arriba">
+
+        <div id="btns-sup"> 
+            <div id="btn-l"></div>
+            <div id="btn-r"></div>
+        </div>
+        <!-- <div class="btns-arriba">
             <div class="btn-l"></div>
             <div class="btn-r"></div>
-        </div>
+        </div> -->
     </div>
 </body>
 
