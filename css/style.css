@@ -5,6 +5,10 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-family: monospace;
+}
+
 .consola {
     width: 45em;
     display: flex;
@@ -237,10 +241,16 @@ body {
     border-radius: 0px 0px 0px 15px;
 }
 
-/* Estilos de los vídeos  */
+/* Estilos de los vídeos e imágenes */
 
 .video-logo {
     background-size: contain;
     width: 24em;
     height: 12.5em;
+}
+
+#logo-nintendo {
+    margin-top: -23px;
+    width: 12em;
+    height: 8em;
 }
