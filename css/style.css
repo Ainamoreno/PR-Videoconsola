@@ -239,8 +239,7 @@ body {
 
 /* Estilos de los vídeos  */
 
-.img-logo {
-    background-image: url(../img/logo.jpg);
+.video-logo {
     background-size: contain;
     width: 24em;
     height: 12.5em;
