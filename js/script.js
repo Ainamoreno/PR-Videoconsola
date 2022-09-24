@@ -1,8 +1,10 @@
+// Nombrar las constantes
 const btnEncender = document.getElementById("btn-home");
 const pantalla = document.getElementById("pantalla");
 const videoLoading = document.getElementById("loading");
 const videoIntro = document.getElementById("video");
 
+// Función para la ejecución del vídeo y sonidos
 
 clickBotonEncender = () => {
     let sound = new Audio('../audio/Bing.mp3');
