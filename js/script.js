@@ -7,7 +7,7 @@ const videoIntro = document.getElementById("video");
 // Función para la ejecución del vídeo y sonidos
 
 clickBotonEncender = () => {
-    let sound = new Audio('../audio/Bing.mp3');
+    let sound = new Audio('/audio/bing.mp3');
 
     setTimeout (()=> {
         btnEncender.addEventListener('click', () => {
