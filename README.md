@@ -12,15 +12,15 @@ Realizada con las tecnologías de **HTML**, **CSS** y **JS**.
 El repositorio consta de la rama develop y dos rama feature (una para la estructura y otra para la lógica).
 
 ##  <div id = "imagenes"> Imágenes
-![image](https://user-images.githubusercontent.com/110055279/192096727-36b1ba72-67e5-4dbe-8a1e-d9d05213c82f.png)
+![image](https://user-images.githubusercontent.com/110055279/192153147-3969b838-c135-487e-b8f8-57e587c009a7.png)
 
 ##  <div id = "funciones"> Funcionalidades
 - Implementación con **JS** del botón de encender. En el cual, se enciende un led verde al darle click.
-![image](https://user-images.githubusercontent.com/110055279/192096866-acedb336-be1d-4d47-9993-ae289e9d6486.png)
+![image](https://user-images.githubusercontent.com/110055279/192153198-2f045c6e-3fc8-4b43-803b-e947eecb8491.png)
 
 - Al darle click al botón start, se reproduce un sonido
 
 - Seguidamente, al darle click y cuando acabe el primer sonido, se reproduce un vídeo con la introducción de la ***Nintendo Switch***
-![image](https://user-images.githubusercontent.com/110055279/192096799-e9ab5ef2-cb38-4828-b810-84887e588554.png)
+![image](https://user-images.githubusercontent.com/110055279/192153216-07552477-9259-40d9-ae14-af1d860bc9d7.png)
 
 
