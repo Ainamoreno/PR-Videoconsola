@@ -8,7 +8,6 @@
 ##  <div id = "descripcion"> Descripción
 Reproducción frontal de la videoconsola portátil Nintendo Switch.
 Realizada con las tecnologías de **HTML**, **CSS** y **JS**.
-
 El repositorio consta de la rama develop y dos rama feature (una para la estructura y otra para la lógica).
 
 ##  <div id = "imagenes"> Imágenes
